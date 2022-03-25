@@ -3,9 +3,6 @@ import java.util.ArrayList;
 //Extends llamar clase Padre
 public class Mounstruos extends Personajes{
 
-    public Mounstruos(String nombre, double peso, double altura) {
-        super(nombre, peso, altura);
-    }
     private boolean cuernos;
     private boolean tentaculos;
     private String color;
@@ -49,7 +46,7 @@ public class Mounstruos extends Personajes{
         this.tentaculos = tentaculos;
         this.color = color;
         this.habilidades = habilidades;
-        System.out.println("Soy el constructor hijo");
+        System.out.println("Soy el constructor Mounstruo");
     }
 
     //Espantar
